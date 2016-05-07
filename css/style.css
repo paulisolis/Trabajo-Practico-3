@@ -1,0 +1,506 @@
+body{
+	background: white;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
+
+
+.posicion{
+	float: right;
+}
+.menu{
+	text-decoration: none;
+	color: black;	
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px;
+	clear: right;
+	position: relative; top: 20px;
+
+}
+
+
+
+.foto{
+	margin: 0;
+	padding: 80px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	background-color: lightblue;
+	background-image: url('../imagenes/imagenheader.jpg');
+	width: 100%;
+	background-size: cover;
+	color: white;
+}
+
+.titulo{
+	font-weight: bold;
+	font-size: 5em;
+	margin-left: 210px;
+}
+
+.texto{
+	font-size: 1.7em;
+	max-width: 400px;
+	margin-left: 210px;
+	line-height: 25pt;
+}
+
+
+.comun{
+    margin: 0 auto;
+    position: relative;
+    width: 834px;
+    top: -55px;
+}
+
+
+.boton{
+	border: none;
+	color: #A9A9A9;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.4em;
+	box-shadow: 0px 0px 10px -3px #999;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 700px;
+	height: 100px;
+
+}
+
+.cuadrado{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background-color: #1E90FF;
+	box-shadow: 0px 0px 10px -3px #999;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 45px;
+	margin-left: -3px;
+}
+
+
+.contenedor{
+	max-width: 1000px;	
+	padding: auto;
+	margin: auto;
+}
+
+.circulo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+.celeste{
+	background-color: #00BFFF;
+}
+
+.amarillo{
+	background-color: #FFD700;
+}
+
+.naranja{
+	background-color: #FF7F50;
+}
+
+.rojo{
+	background-color: #ff3333;
+}
+
+
+
+.centrado{
+	display: inline-block;
+}
+
+.texto2{
+	color: gray;	
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+	position: relative; top: 10px;
+
+}
+
+.texto2 h3{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.texto2 p{
+	width: 200px;
+	height: 200px;
+	margin:auto;
+
+}
+
+
+.circulo2{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+    position: relative; bottom: 120px;
+    max-width: 1000px;
+    background-color: #DCDCDC;
+}
+
+.centrado1{
+	margin: 0 auto;
+	width: 20px;
+}
+
+.down {
+	position: relative;
+	top: 80px;
+}
+
+
+.subir{
+	position: relative;
+	top: -300px;
+}
+
+.circulo3 {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+    position: relative; bottom: 50px;
+    background-color: #00BFFF;
+}
+
+
+
+.servicios{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	position: relative; top: -60px;
+}
+
+.servicios h2{
+	font-size: 4.5em;
+	color: black;	
+}
+
+.servicios p{
+	font-size: 1.6em;
+	color: gray;	
+}
+
+
+
+
+
+.circuloservicios{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 2px solid #00BFFF;
+	margin-left: 169px;
+}
+
+
+.textoservicios{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: right;
+	width: 200px;
+	height: 200px;
+	list-style: none;
+	margin-left: 200px;
+	position: relative; bottom: 150px;
+
+}
+
+.textoservicios h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+
+.textoservicios p{
+	color: gray;
+}
+
+
+
+.celular{
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 100px;
+	margin-right: 100px;
+	}
+
+
+.circuloservicios2{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 2px solid #00BFFF;
+	margin-right: 169px;
+}
+
+.textoservicios2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	width: 200px;
+	height: 200px;
+	list-style: none;
+	position: relative; bottom: 150px;
+
+}
+
+.textoservicios2 h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+
+.textoservicios2 p{
+	color: gray;
+}
+
+.display{
+	display: inline-block;
+}
+
+
+
+
+.circulo4{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+    position: relative; bottom: -70px;
+    max-width: 1000px;
+    background-color: #00BFFF;
+}
+
+
+
+.pricing{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	position: relative; top: 60px;
+}
+
+.pricing h2{
+	font-size: 4.5em;
+	color: black;	
+}
+
+.pricing p{
+	font-size: 1.6em;
+	color: gray;	
+}
+
+
+
+
+
+.foto2{
+	height: 450px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	background-color: lightblue;
+	background-image: url("../imagenes/mujer-con-celular.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 80px;
+	position: relative; top: 20px;
+}
+
+.titulo2{
+	font-weight: bold;
+	font-size: 5em;
+	margin: auto;
+}
+
+.texto2{
+	font-size: 1.7em;
+	margin: auto;
+	line-height: 25pt;
+}
+
+
+
+.todos{
+	width: 968px;
+	margin: 0 auto;
+}
+
+.small{
+	height: 350px;
+	width: 200px;
+	box-shadow: 0px 0px 10px -3px #999;
+	display: inline-block;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 25px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: white;
+
+}
+
+.small ul{
+	list-style: none;
+	font-size: 1.3em;
+	margin-left: -20px;
+	padding: -25px;
+	text-align: left;
+	color: gray;
+	display: inline-block;
+
+
+}
+
+.small h5{
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.3;
+	color: black;
+
+
+}
+
+
+.small h2{
+	font-size: 4em;
+	text-align: center;
+	color: black;
+	display: inline-block;
+	margin-top: -50px;
+
+}
+
+.small h4{
+	font-size: 1.2em;
+	display: block;
+	color: black;
+	display: inline-block;
+	width: 24%;
+}
+
+
+
+
+.small a{
+	background-color: lightblue;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	box-shadow: 0px 0px 10px -3px #999;
+	box-sizing: border-box;
+	padding: 13px;
+	margin: 30px;
+	border-top: 100px;
+}
+
+
+#numerosc {
+	color: #00BFFF;
+}
+
+
+#numerosa {
+	color: #FFD700;
+}
+
+#numerosn {
+	color: #FF7F50;
+}
+
+#numeror {
+	color: #ff3333;
+}
+
+
+
+
+
+.fondo{
+	height: 200px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #708099;
+	padding: 50px;
+	position: relative; top: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.fondo h1{
+	color: white;
+	font-size: 2em;
+	font-weight: lighter;
+}
+
+
+.fondo a{
+	font-size: 2.2em;
+	color: #00BFFF;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+
+
+.footer{
+	height: 200px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #191970;
+	padding: 50px;
+	position: relative; top: 20px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.footer p{
+	color: white;
+	float: left;
+}
+
+.footer li{
+	color: white;
+	float: right;
+	padding: 30px;
+	list-style: none;
+}
+
+.footer li a {
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.footer li:hover a {
+	opacity: 1;
+}

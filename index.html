@@ -6,10 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body>
 
-	<header>
+	<header class="header">
 		<a href="navegador.html"><img src="imagenes/logo.jpg"></a>
 		<nav class="posicion">
 			<a href="home.html" class="menu">Home</a>
@@ -28,9 +29,11 @@
 
 		<article>
 			<form method= "post" action="enviador.jpg" class="comun">
-				<input class="boton" type="text" name="nombre" placeholder="Enter your domain name and hit enter">
-				<a href="http://www.facebook.com">
-					<div class="cuadrado">Search</div>
+				<input class="texto-completar" type="text" name="nombre" placeholder="Enter your domain name and hit enter">
+				<a href="#" class="cuadrado">
+					<div class="ion-android-search lupa">
+						<div class="search">Search</div>
+					</div>
 				</a>
 				<!-- <a href="#" class="buscador">Search</a> -->	
 			</form>
@@ -41,7 +44,11 @@
 	<section>
 		<div class="contenedor">
 			<article class="centrado">
-				<div class="circulo celeste"></div>
+				<div>
+					<a href="#" class="circulo celeste iconos">
+						<p class="ion-ios-speedometer-outline icono8"></p>
+					</a>
+				</div>
 				<div class="texto2">
 					<h3>speed servers</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -51,7 +58,11 @@
 			<div class="circulo2"></div>
 			<div class="circulo2"></div>
 			<article class="centrado">
-				<div class="circulo amarillo"></div>
+				<div>
+					<a href="#" class="circulo amarillo iconos">
+						<p class="ion-ios-settings-strong icono9"></p>
+					</a>
+				</div>
 				<div class="texto2">
 					<h3>hostro services</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -61,7 +72,11 @@
 			<div class="circulo2"></div>
 			<div class="circulo2"></div>
 			<article class="centrado">
-				<div class="circulo naranja"></div>
+				<div>
+					<a href="#" class="circulo naranja iconos">
+						<p class="ion-ios-chatboxes-outline icono8"></p>
+					</a>
+				</div>
 				<div class="texto2">
 					<h3>live support</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -71,7 +86,11 @@
 			<div class="circulo2"></div>
 			<div class="circulo2"></div>
 			<article class="centrado">
-				<div class="circulo rojo"></div>
+				<div>
+					<a href="#" class="circulo rojo iconos">
+					<p class="ion-android-checkmark-circle icono9"></p>
+					</a>
+				</div>
 				<div class="texto2">
 					<h3>get domain name</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -94,71 +113,94 @@
 			<h2>Hostro Services</h2>
 			<p>Ut enim ad minim veniam.</p>
 		</div>
-		<div class="display">
+	</section>
+	<section>
+		<article class="orden">
+
+			<div class="display">
 			<ul class="textoservicios">
 				<li>
 					<article>
-						<div class="circuloservicios"></div>
 						<div>
-							<h5>Características 1</h5>
+							<h5>Retina Ready</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 				<li>
 					<article>
-						<div class="circuloservicios"></div>
 						<div>
-							<h5>Características 2</h5>
+							<h5>Easy Customize</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 				<li>
 					<article>
-						<div class="circuloservicios"></div>
 						<div>
-							<h5>Características 3</h5>
+							<h5>Pixel Perfect</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 			</ul>
-		</div>
-		<div class="display">
-			<img src="imagenes/celular.jpg" class="celular">
-		</div>
-		<div class="display">
+			</div>
+
+			<ul class="lista">
+				<li class="circuloservicios">
+					<div class="ion-image icono cuatro"></div>
+				</li>
+				<li class="circuloservicios">
+					<div class="ion-ios-location-outline icono tres"></div>
+				</li>
+				<li class="circuloservicios">
+					<div class="ion-ios-heart-outline icono"></div>
+				</li>
+			</ul>
+
+				<img src="imagenes/celular.jpg" class="celular">
+
+			<ul class="lista2">
+				<li class="circuloservicios2">
+					<div class="ion-android-locate icono cuatro"></div>
+				</li>
+				<li class="circuloservicios2">
+					<div class="ion-bookmark icono dos"></div>
+				</li>
+				<li class="circuloservicios2">
+					<div class="ion-ios-clock-outline icono"></div>
+				</li>
+			</ul>
+
+			<div class="display">
 			<ul class="textoservicios2">
 				<li>
 					<article>
-						<div class="circuloservicios2"></div>
 						<div>
-							<h5>Características 1</h5>
+							<h5>Unlimited Colors</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 				<li>
 					<article>
-						<div class="circuloservicios2"></div>
 						<div>
-							<h5>Características 2</h5>
+							<h5>Features</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 				<li>
 					<article>
-						<div class="circuloservicios2"></div>
 						<div>
-							<h5>Características 3</h5>
+							<h5>Support Today</h5>
 							<p>Nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 						</div>
 					</article>
 				</li>
 			</ul>
-		</div>
+			</div>
+		</article>
 	</section>
 
 	<section style="height: 800px">
@@ -178,9 +220,13 @@
 		<div class="todos">
 			<article class="small">
 				<h5>Small package</h5>
-				<h4>$</h4>
-				<h2>15</h2>
-				<h4>.99</h4>
+				<div class="numeros precio">
+					<h4>$</h4>
+					<h2>15</h2>
+					<h3>.99</h3>
+					<p class="monto">/mount</p>
+				</div>
+				<div class="linea"></div>
 				<ul>
 					<li>Hard drive, GB</li>
 					<li>Transfer, GB</li>
@@ -197,9 +243,13 @@
 			</article>
 			<article class="small">
 				<h5>Normal package</h5>
-				<h4>$</h4>
-				<h2>45</h2>
-				<h4>.99</h4>
+				<div class="precio">
+					<h4>$</h4>
+					<h2>45</h2>
+					<h3>.99</h3>
+					<p class="monto">/mount</p>
+				</div>
+				<div class="linea"></div>
 				<ul>
 					<li>Hard drive, GB</li>
 					<li>Transfer, GB</li>
@@ -216,9 +266,13 @@
 			</article>
 			<article class="small">
 				<h5>big package</h5>
-				<h4>$</h4>
-				<h2>99</h2>
-				<h4>.99</h4>
+				<div class="precio">
+					<h4>$</h4>
+					<h2>99</h2>
+					<h3>.99</h3>
+					<p class="monto">/mount</p>
+				</div>
+				<div class="linea"></div>
 				<ul>
 					<li>Hard drive, GB</li>
 					<li>Transfer, GB</li>
@@ -235,9 +289,13 @@
 			</article>
 			<article class="small">
 				<h5>best package</h5>
+				<div class="precio">
 					<h4>$</h4>
 					<h2>199</h2>
-					<h4>.99</h4>
+					<h3>.99</h3>
+					<p class="monto">/mount</p>
+				</div>
+				<div class="linea"></div>
 				<ul>
 					<li>Hard drive, GB</li>
 					<li>Transfer, GB</li>
@@ -250,7 +308,7 @@
 					<li>1</li>
 					<li>1</li>
 				</ul>
-				<a href="">Select plain</a>
+				<p><a href="">Select plain</a></p>
 			</article>
 		</div>
 		</article>
@@ -265,7 +323,7 @@
 
 	<footer class="footer">
 			<p>2015 Hostro. All right reserved.</p>
-			<ul>
+			<ul class="footer-menu">
 				<li><a href="home.html">Home</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>

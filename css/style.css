@@ -8,6 +8,13 @@ body{
 div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 
 
+.header{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 25px;
+	height: 0px;
+}
+
 .posicion{
 	float: right;
 }
@@ -24,16 +31,19 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 
 }
 
+.menu:hover{
+	color: gray;
+}
+
 
 
 .foto{
 	margin: 0;
-	padding: 80px;
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
 	background-color: lightblue;
 	background-image: url('../imagenes/imagenheader.jpg');
-	width: 100%;
+	height: 500px;
 	background-size: cover;
 	color: white;
 }
@@ -41,52 +51,77 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 .titulo{
 	font-weight: bold;
 	font-size: 5em;
-	margin-left: 210px;
+	margin: 80px 200px;
+	padding-top: 100px;
+
 }
 
 .texto{
 	font-size: 1.7em;
 	max-width: 400px;
-	margin-left: 210px;
 	line-height: 25pt;
+	margin: 80px 200px;
 }
 
 
 .comun{
     margin: 0 auto;
     position: relative;
-    width: 834px;
+    width: 850px;
     top: -55px;
 }
 
 
-.boton{
+
+
+.texto-completar{
 	border: none;
 	color: #A9A9A9;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.4em;
 	box-shadow: 0px 0px 10px -3px #999;
 	box-sizing: border-box;
-	padding: 40px;
 	width: 700px;
 	height: 100px;
+	padding: 40px;
 
 }
 
+
 .cuadrado{
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: bold;
-	font-family: 'PT Sans', sans-serif;
-	color: white;
 	background-color: #1E90FF;
 	box-shadow: 0px 0px 10px -3px #999;
 	box-sizing: border-box;
 	display: inline-block;
-	padding: 45px;
 	margin-left: -3px;
+    width: 140px;
+	height: 101px;
+	padding: 44px;
+
+
 }
+
+.search{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	display: inline-block;
+	letter-spacing: 0.1em;
+
+}
+
+.lupa{
+	/*font-size: 2em;*/
+	color: white;
+	text-align: left;
+	display: inline-block;
+
+	}
+
+
 
 
 .contenedor{
@@ -122,6 +157,22 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 }
 
 
+.icono8{
+	color: white;
+	font-size: 2.7em;
+	-webkit-text-stroke: 1px white;
+	display: inline-block;
+	padding-left: 28px;
+}
+
+.icono9{
+	color: white;
+	font-size: 2.7em;
+	-webkit-text-stroke: 0px white;
+	display: inline-block;
+	padding-left: 28px;
+}
+
 
 .centrado{
 	display: inline-block;
@@ -131,7 +182,6 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	color: gray;	
 	font-family: 'PT Sans', sans-serif;
 	text-align: center;
-	font-size: 1.3em;
 	position: relative; top: 10px;
 
 }
@@ -139,12 +189,18 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 .texto2 h3{
 	text-transform: uppercase;
 	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-size: 0.8em;
+
 }
 
 .texto2 p{
 	width: 200px;
 	height: 200px;
 	margin:auto;
+	font-size: 0.7em;
+	line-height: 1.6;
+
 
 }
 
@@ -172,7 +228,7 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 
 .subir{
 	position: relative;
-	top: -300px;
+	top: -400px;
 }
 
 .circulo3 {
@@ -203,86 +259,136 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 }
 
 
+/*Seccion celular*/
 
 
-
-.circuloservicios{
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	border: 2px solid #00BFFF;
-	margin-left: 169px;
+.orden{
+	width: 1000px;
+	margin: 0 auto;
 }
+
+.display{
+	display: inline-block;
+	position: relative;
+	bottom: 200px;
+}
+
 
 
 .textoservicios{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: right;
-	width: 200px;
-	height: 200px;
+	width: 180px;
 	list-style: none;
-	margin-left: 200px;
-	position: relative; bottom: 150px;
-
 }
 
 .textoservicios h5{
 	text-transform: uppercase;
 	font-weight: bold;
-	color: black;
+	color: gray;
+	letter-spacing: 0.2em;
+	font-size: 0.8em;
 }
 
 
 .textoservicios p{
 	color: gray;
+	font-size: 0.7em;
 }
 
+.lista{
+	display: inline-block;
+	position: relative;
+	bottom: 250px;
+}
 
+.circuloservicios{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 2px solid #00BFFF;
+	list-style: none;
+	margin: 38px 0;
+}
+
+.icono{
+	color: #00BFFF;
+	font-size: 2em;
+	-webkit-text-stroke: 1px #00BFFF;
+	padding: 6px 9px;
+	display: inline-block;
+}
+
+.dos{
+	padding: 6px 14px;
+}
+
+.tres{
+	padding: 6px 11px;
+}
+
+.cuatro{
+		-webkit-text-stroke: 0px #00BFFF;
+
+}
+
+.lugarcelu{
+	display: inline-block;
+}
 
 .celular{
-	display: inline-block;
 	box-sizing: border-box;
-	margin-left: 100px;
-	margin-right: 100px;
-	}
+	padding: 0 50px; 	
+	height: 35%;
+	width: 35%;
+}
 
+.lista2{
+	display: inline-block;
+	padding: 0px; 
+	position: relative;
+	bottom: 250px;
+}
 
 .circuloservicios2{
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
 	border: 2px solid #00BFFF;
-	margin-right: 169px;
+	list-style: none;
+	margin: 38px 0;
 }
+
+
 
 .textoservicios2{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: left;
-	width: 200px;
-	height: 200px;
+	width: 180px;
 	list-style: none;
-	position: relative; bottom: 150px;
 
 }
 
 .textoservicios2 h5{
 	text-transform: uppercase;
 	font-weight: bold;
-	color: black;
+	color: gray;
+	letter-spacing: 0.2em;
+	font-size: 0.8em;
 }
 
 
 .textoservicios2 p{
 	color: gray;
+	font-size: 0.7em;
+
 }
 
-.display{
-	display: inline-block;
-}
 
 
+/*fin seccion celular*/
 
 
 .circulo4{
@@ -346,10 +452,36 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 .todos{
 	width: 968px;
 	margin: 0 auto;
+	padding-top: 100px;
 }
 
+.small h4{
+	font-size: 1.2em;
+	display: block;
+	color: black;
+	display: inline-block;
+	width: 24%;
+	text-align: right;
+    position: relative;
+    top: -18px;
+    margin: 0px;
+}
+
+.small h3{
+	font-size: 1.2em;
+	display: block;
+	color: black;
+	display: inline-block;
+	width: 24%;
+	text-align: left;
+    position: relative;
+    top: -18px;
+    margin: 0px;
+}
+
+
 .small{
-	height: 350px;
+	height: 400px;
 	width: 200px;
 	box-shadow: 0px 0px 10px -3px #999;
 	display: inline-block;
@@ -359,17 +491,17 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	padding: 25px;
 	font-family: 'PT Sans', sans-serif;
 	background-color: white;
-
+	display: inline-table;
 }
 
 .small ul{
 	list-style: none;
 	font-size: 1.3em;
 	margin-left: -20px;
-	padding: -25px;
 	text-align: left;
 	color: gray;
 	display: inline-block;
+	line-height: 25pt;
 
 
 }
@@ -380,9 +512,8 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 1.3;
-	color: black;
-
-
+	color: gray;
+	letter-spacing: 0.1em;
 }
 
 
@@ -392,22 +523,29 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	color: black;
 	display: inline-block;
 	margin-top: -50px;
+	margin: 0px;
 
 }
 
-.small h4{
-	font-size: 1.2em;
+.monto{
+	font-size: 1em;
 	display: block;
-	color: black;
-	display: inline-block;
-	width: 24%;
+	color: gray;
+	text-align: center;
+    position: relative;
+    top: -15px;
+    padding-right: 40px;
+
 }
 
-
+.linea{
+	background-color: #DCDCDC;
+	height: 1px;
+}
 
 
 .small a{
-	background-color: lightblue;
+	background-color: #00BFFF;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -415,16 +553,16 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	text-decoration: none;
 	box-shadow: 0px 0px 10px -3px #999;
 	box-sizing: border-box;
-	padding: 13px;
-	margin: 30px;
+	padding: 10px 39px;
 	border-top: 100px;
+	letter-spacing: 0.1em;
+
 }
 
 
 #numerosc {
 	color: #00BFFF;
 }
-
 
 #numerosa {
 	color: #FFD700;
@@ -439,14 +577,16 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 }
 
 
-
+.precio{
+	margin: 0 auto;
+}
 
 
 .fondo{
 	height: 200px;
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
-	background-color: #708099;
+	background-color: #003355;
 	padding: 50px;
 	position: relative; top: 20px;
 	text-decoration: none;
@@ -455,13 +595,13 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 
 .fondo h1{
 	color: white;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: lighter;
 }
 
 
 .fondo a{
-	font-size: 2.2em;
+	font-size: 1.3em;
 	color: #00BFFF;
 	font-weight: bold;
 	text-decoration: none;
@@ -474,7 +614,7 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 	height: 200px;
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
-	background-color: #191970;
+	background-color: #000333;
 	padding: 50px;
 	position: relative; top: 20px;
 	text-decoration: none;
@@ -503,4 +643,10 @@ div, article, section, nav, footer, aside, header{ box-sizing:border-box;}
 
 .footer li:hover a {
 	opacity: 1;
+}
+
+
+.footer-menu{
+	 display: inline-flex;
+    float: right;
 }
